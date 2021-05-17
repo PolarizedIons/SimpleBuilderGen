@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGen", "SourceGen\SourceGen.csproj", "{D5FC4F04-1AB1-4618-81DC-FC6C4D5689DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Package", "Package\Package.csproj", "{666839B2-0470-4568-80D1-42605C89FF78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolarizedIons.SimpleBuilderGen", "PolarizedIons.SimpleBuilderGen\PolarizedIons.SimpleBuilderGen.csproj", "{666839B2-0470-4568-80D1-42605C89FF78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
