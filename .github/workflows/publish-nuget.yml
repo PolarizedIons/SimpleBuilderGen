@@ -19,7 +19,7 @@ jobs:
       - name: publish on version change
         uses: rohith/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: PolarizedIons.SimpleBuilderGenPackage/PolarizedIons.SimpleBuilderGenPackage.csproj
+          PROJECT_FILE_PATH: Package/Package.csproj
           PACKAGE_NAME: PolarizedIons.SimpleBuilderGen
           VERSION_REGEX: ^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
