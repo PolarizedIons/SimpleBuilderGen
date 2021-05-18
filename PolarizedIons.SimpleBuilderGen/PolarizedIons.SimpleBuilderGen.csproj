@@ -10,8 +10,12 @@
         <RootNamespace>Package</RootNamespace>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+    </PropertyGroup>
+
     <ItemGroup>
-      <ProjectReference Include="..\SourceGen\SourceGen.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+      <ProjectReference Include="..\SourceGen\SourceGen.csproj" />
     </ItemGroup>
 
 </Project>
