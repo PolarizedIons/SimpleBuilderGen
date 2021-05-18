@@ -1,5 +1,7 @@
 # SimpleBuilderGen
 
+[![Nuget](https://img.shields.io/nuget/v/PolarizedIons.SimpleBuilderGen?style=for-the-bade)](https://www.nuget.org/packages/PolarizedIons.SimpleBuilderGen/)
+
 Say you have this object:
 ```c#
 [GenerateBuilder]
