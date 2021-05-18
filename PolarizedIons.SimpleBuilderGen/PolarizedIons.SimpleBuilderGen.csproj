@@ -2,20 +2,22 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <PackageVersion>1.0.2</PackageVersion>
         <Authors>PolarizedIons</Authors>
         <Copyright>2021</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/PolarizedIons/SimpleBuilderGen</RepositoryUrl>
-        <RootNamespace>Package</RootNamespace>
+        <RootNamespace>PolarizedIons.SimpleBuilderGen</RootNamespace>
     </PropertyGroup>
 
     <PropertyGroup>
         <IncludeBuildOutput>false</IncludeBuildOutput>
     </PropertyGroup>
-
+    
     <ItemGroup>
-      <ProjectReference Include="..\SourceGen\SourceGen.csproj" />
+        <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.9.0" PrivateAssets="all" />
     </ItemGroup>
-
 </Project>
