@@ -6,6 +6,7 @@
         <Copyright>2021</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/PolarizedIons/SimpleBuilderGen</RepositoryUrl>
+        <PackageVersion>1.0.3</PackageVersion>
         <RootNamespace>PolarizedIons.SimpleBuilderGen</RootNamespace>
     </PropertyGroup>
 
